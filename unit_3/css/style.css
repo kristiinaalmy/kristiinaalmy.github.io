@@ -1,0 +1,14 @@
+body {
+	background:images/Winter-Sunset-Across-Cambridge-Reservoir.jpg;
+	background-size: cover;
+	Font-family: Helvetica, sans-serif;
+	text-align: center;
+} 
+h1 {
+	color: #FF6347;
+}
+
+#slogan {
+	font-style: italic;
+}
+
