@@ -1,5 +1,5 @@
 body {
-	background: ("images/Winter-Sunset-Across-Cambridge-Reservoir.jpg");
+	background: img("images/Winter-Sunset-Across-Cambridge-Reservoir.jpg");
 	background-size: cover;
 	Font-family: Helvetica, sans-serif;
 	text-align: center;
