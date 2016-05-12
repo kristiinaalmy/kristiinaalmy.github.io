@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic,100,100italic);
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 16px;
+	color: gray;
+	line-height: 1.5em;
+	text-align: left;
+	
+	}
+
+#wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	padding: 0px 0 90px 0;
+	
+}
+
+nav {
+	padding: 10px;
+	
+}
+
+#nav_left {
+	float: left;
+	padding-top: 10px;
+	
+}
+
+#nav_left img {
+	width: 45px;
+}
+
+#nav_right {
+	float: right;
+	padding-top: 10px;
+	
+}
+
+#nav_right a {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	
+	margin: 0 0 0 40px;
+	
+	color: gray;
+	text-decoration: none;
+
+} 
+
+#nav_right a:hover { 
+	color: #F79C31;
+}
+
+p {
+	font-size: 1em;
+}
+
+main {
+	padding: 10px;	
+	width: 1200px;
+}
+
+
+/*#home-column1, #home-column2, #home-column3, #home-column4 {
+	float: left;
+	padding: 10px;
+	background-color: #e3dfd6;
+	}*/
+
+.img1 figure img, .img2 figure img, .img3 figure img, .img4 figure img, .img5 figure img, .img6 figure img, .img7 figure img, .img8 figure img, .img9 figure img, .img10 figure img, .img11 figure img, .img12 figure img {
+	width: 25%;	
+}
+
+figure {
+	margin-bottom: 2em;
+}
+
+footer {
+	clear: both;
+	padding: 10px;
+	
+}
+
+/*.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+	
+	height: o;
+	font-size: 0;
+	visability: hidden;
+}*/
