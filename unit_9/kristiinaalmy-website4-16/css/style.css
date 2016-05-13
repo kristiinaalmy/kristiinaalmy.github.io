@@ -37,17 +37,15 @@ nav {
 	padding: 10px 0 0 10px;
 }
 
-#nav_left img {
-	width: 45px;
-}
+
 
 #nav_right {
 	float: right;
-	padding: 10px 10px 0 0;
+	padding: 22px 10px 0 0;
 	
 }
 
-#nav_right a {
+nav a {
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 2px;
@@ -56,8 +54,16 @@ nav {
 	
 	color: gray;
 	text-decoration: none;
+	line-height: 30px;
+	display: inline-block;
+	vertical-align: middle;
 
 } 
+
+#nav_left a img {
+	width: 45px;
+	margin: 0;
+}
 
 #nav_right a:hover { 
 	color: #F79C31;
@@ -74,11 +80,17 @@ main {
 
 .column {
 	float: left;
-	width: 25%;
+	width: 23%;
+	margin: 1%;
 }
 
 figure {
 	margin-bottom: 2em;
+}
+
+figure img {
+
+	width: 100%;
 }
 
 footer {
