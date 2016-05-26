@@ -52,22 +52,18 @@ nav a {
 	padding: 0;
 	color: gray;
 	text-decoration: none;
-	line-height: 1.5em;
+	line-height: 2em;
 	display: inline-block;
 	vertical-align: middle;
 } 
 
 #nav_left a:first-of-type {
-	margin: 1em .55em 0em 1.55em;
+	margin: 1em .55em 0 1.55em;
 }
 
 #nav_left a img {
 	width: 3em;
-	margin: 0;
-}
-
-#nav_left a {
-	margin-top: 1.2em;
+	margin: 0 0 .5em 0;
 }
 
 nav a:hover { 
@@ -275,7 +271,7 @@ label {
 	}
 	
 	#nav_right{
-		clear: both;
+		float: none;
 		display: none;
 		padding: 0;
 		text-align: center;
