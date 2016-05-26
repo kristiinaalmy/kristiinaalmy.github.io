@@ -40,7 +40,7 @@ nav {
 
 #nav_right {
 	float: right;
-	padding: 2em 1em 0 0;
+	padding: 1.5em 1em 0 0;
 	margin: 0;
 }
 
@@ -181,7 +181,7 @@ label {
 	text-transform: uppercase;
 	padding: 0 32px;
 	font-weight: 600;
-	font-size: 1 em;
+	/*font-size: 1 em;*/
 	letter-spacing: .4em;
 	color: gray;
 	display: none;
@@ -225,23 +225,6 @@ label {
 		width: 85%
 	}
 }
-	
-/*@media only screen and (max-width: 1140px) {
-	#nav_right {
-		float: none;
-		clear: both;
-		padding-top: 0;
-		padding-left: 0;
-	}
-	
-	#nav_right a{
-		margin: 1em 1em 1em 1.5em;
-	}
-	
-		header {
-		padding-bottom: 1em;
-	}
-}*/
 
 @media only screen and (max-width: 1230px) {
 	#wrapper { 
@@ -264,10 +247,18 @@ label {
 
 
 	#nav_left {
-		margin: 0 0 1em 0;
+		margin: 0 0 1.25em 0;
 		float: none;
 		display: block;
 		text-align: center;
+	}
+	
+	#nav_left a {
+		line-height: .75em;
+	}
+	
+	#nav_left a img{
+		margin-bottom: 1.5em;
 	}
 	
 	#nav_right{
@@ -280,7 +271,7 @@ label {
 	nav a {
 		clear: both;
 		margin: 0;
-		padding-top: .5em;
+		padding-top: .4em;
 		display: block;
 		text-align: center;
 	}
@@ -292,6 +283,7 @@ label {
 	
 	label {
 		display: block;
+		margin-bottom: .5em;
 	}
 	
 	label:hover { 
@@ -325,7 +317,7 @@ label {
 
 @media only screen and (max-width: 570px) {
 	nav {
-	font-size: 1em;
+	/*font-size: 1em;*/
 	}
 
 	.column {
